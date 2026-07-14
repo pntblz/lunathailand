@@ -4,12 +4,16 @@
   --color-brand-blue: #83bedc;
   --color-brand-blue-light: #e6f3fa;
   --color-brand-blue-dark: #5a9abf;
+  --color-brand-rose: #C9A087;
+  --color-brand-cream: #FFF9F5;
+  --color-brand-dark: #2D2A26;
   --font-sans: var(--font-outfit), Arial, Helvetica, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
 }
 
 body {
   /* Subtle glassmorphism background utility if needed */
-  background-image: radial-gradient(circle at top left, #f8fafc, #e6f3fa);
+  background-image: radial-gradient(circle at top left, #FFF9F5, #F5EAE1);
   background-attachment: fixed;
   background-size: cover;
 }
