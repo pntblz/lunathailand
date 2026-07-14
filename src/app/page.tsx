@@ -122,7 +122,7 @@ export default function Home() {
       <main className="flex-grow relative z-10">
         
         {/* Hero Section */}
-        <section className="relative w-full h-[85vh] flex items-center justify-center">
+        <section className="relative w-full h-[60vh] md:h-[85vh] flex items-center justify-center">
           <div className="absolute inset-0 z-0 m-4 sm:m-8 rounded-[2rem] sm:rounded-[3rem] overflow-hidden shadow-2xl">
             <img
               src="https://scontent.fbkk12-6.fna.fbcdn.net/v/t39.30808-6/546861769_122248163852210229_6763724321963510309_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1008&ctp=s1920x1008&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=B1lJ4qBWphwQ7kNvwHXRD5w&_nc_oc=AdpxQDc50FMv2SdjvlJYOcLDOSre7_3B5xREAiniXhg6aS48UjHSYrOH7sADlvkLi9iuTTJsLupHygEX2AW6WvZJ&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=B9oMQ8__dfyJA9laOxj2yg&_nc_ss=7b2a8&oh=00_AQA8uXQ09pdAIqteVCQMen4Ediz_JL-RpqSZFnVydGabYA&oe=6A5BF64A"
@@ -134,14 +134,14 @@ export default function Home() {
           </div>
           
           <div className="relative z-10 text-center px-6 w-full flex flex-col items-center justify-end pb-24 h-full">
-            <span className="inline-block py-1.5 px-4 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white font-medium text-xs tracking-[0.3em] uppercase mb-6 shadow-xl">
+            <span className="inline-block py-1.5 px-4 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white font-medium text-xs tracking-[0.3em] uppercase mb-4 sm:mb-6 shadow-xl">
               Discover Your Inner Glow
             </span>
-            <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl tracking-tight leading-[1.1] max-w-4xl">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 drop-shadow-2xl tracking-tight leading-[1.1] max-w-4xl">
               Elevate Your <br className="hidden sm:block" /> 
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-200 to-white">Natural Beauty</span>
             </h1>
-            <p className="text-base sm:text-lg text-white/90 mb-10 max-w-xl font-light drop-shadow-md mx-auto leading-relaxed">
+            <p className="text-sm sm:text-lg text-white/90 mb-6 sm:mb-10 max-w-xl font-light drop-shadow-md mx-auto leading-relaxed">
               Experience the finest ingredients crafted to perfection for Thai skin. Unlock a radiant, flawless look every day.
             </p>
             <Link href="#products" className="group relative inline-flex items-center justify-center px-10 py-4 bg-white/90 backdrop-blur-md text-slate-900 rounded-full font-semibold transition-all duration-500 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] hover:bg-white transform hover:-translate-y-1 overflow-hidden">
@@ -159,10 +159,10 @@ export default function Home() {
               <p className="text-slate-500 max-w-2xl text-lg font-light">Curated essentials for your daily beauty ritual.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-8 md:gap-12">
               {products.map((product, index) => (
-                <div key={index} className="group relative bg-white/60 backdrop-blur-xl rounded-[2rem] p-4 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 border border-white/50 transform hover:-translate-y-2 flex flex-col">
-                  <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.5rem] bg-slate-50 mb-6">
+                <div key={index} className="group relative bg-white/60 backdrop-blur-xl rounded-[1.25rem] sm:rounded-[2rem] p-2 sm:p-4 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 border border-white/50 transform hover:-translate-y-2 flex flex-col">
+                  <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1rem] sm:rounded-[1.5rem] bg-slate-50 mb-3 sm:mb-6">
                     <img
                       src={product.image}
                       alt={product.name}
@@ -170,19 +170,19 @@ export default function Home() {
                     />
                   </div>
                   
-                  <div className="flex flex-col flex-grow px-4 pb-4 text-center">
-                    <h3 className="text-xl font-bold text-slate-800 mb-1">{product.name}</h3>
-                    <p className="text-brand-blue-dark font-medium text-lg mb-6">{product.price}</p>
+                  <div className="flex flex-col flex-grow px-1 sm:px-4 pb-2 sm:pb-4 text-center">
+                    <h3 className="text-[13px] sm:text-xl font-bold text-slate-800 mb-1 leading-tight line-clamp-2">{product.name}</h3>
+                    <p className="text-brand-blue-dark font-medium text-[11px] sm:text-lg mb-3 sm:mb-6">{product.price}</p>
                     
                     <div className="mt-auto">
                       <a 
                         href={product.shopeeLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 w-full py-4 bg-gradient-to-r from-[#ee4d2d] to-[#ff7337] text-white rounded-xl font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform active:scale-95"
+                        className="flex items-center justify-center gap-1 sm:gap-2 w-full py-2 sm:py-4 bg-gradient-to-r from-[#ee4d2d] to-[#ff7337] text-white rounded-lg sm:rounded-xl font-semibold text-[11px] sm:text-base hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform active:scale-95"
                       >
-                        <SiShopee size={20} />
-                        Buy on Shopee
+                        <SiShopee className="w-3 h-3 sm:w-5 sm:h-5" />
+                        <span className="whitespace-nowrap">Buy</span>
                       </a>
                     </div>
                   </div>
