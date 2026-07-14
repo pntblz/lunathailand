@@ -24,7 +24,7 @@ export default function Home() {
     },
     {
       name: "Luna Lip Berry Frozen",
-      price: "New Arrival",
+      price: "249 baht",
       image: "https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/480574394_122207549906210229_146951145116054180_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rHJUgwydMvkQ7kNvwFMV3f7&_nc_oc=AdoEGNhEJCRXbj-e5JyZz9NwJYgAaZGBPocAhh3c_W24pnS1V7uw5JfgllOE4NDNgztAdfH5O87qRBIIeRj8QuSg&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&_nc_gid=h6NcuqDx3NXntILmXRdbWQ&_nc_ss=7b2a8&oh=00_AQC6g37wrEPuUnLZMj2P_OnBCANOwvJxYPhPvQbJ0CK-wQ&oe=6A5BD761",
       shopeeLink: "https://s.shopee.co.th/8KnuXQfTWQ",
     },
@@ -36,14 +36,14 @@ export default function Home() {
     },
     {
       name: "Luna Jelly Eye Mask",
-      price: "Best Seller",
+      price: "390 baht",
       image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/480455900_122207312402210229_5618724458349782034_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=f5hnkf5tT5sQ7kNvwFQwhls&_nc_oc=Adp7-IsLdBvECZGnPrjmLKSi8fZIqSNPKvg5YlP_iRkcB37GVLUMo9gxkTZ9csUUoEZXy0NbQgErJmDjbe2ReyAW&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=gXtOr0aMtnYp3sZcd9ZDKQ&_nc_ss=7b2a8&oh=00_AQCBVpawl5ZA67Rl8QQDqMDbyD4nugN1ImgDKDr9bAvPRg&oe=6A5C0216",
       shopeeLink: "https://s.shopee.co.th/9zw8WLYqbo",
     },
     {
-      name: "Luna Face Mask",
-      price: "Coming Soon",
-      image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/600293670_122266768982210229_8423589881959478060_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GA4aUDvmDNkQ7kNvwEaHB0X&_nc_oc=AdoU9FwC_D4hsBvzHerKHxIARO0xMnzLGhWUKQ5IwGDEV9jd8hwnSEKFIIsOqqInQTdtVY-9lhHTkFp3E0INQg4_&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=3GKQtLsYx-AsLAQIMQdOiA&_nc_ss=7b2a8&oh=00_AQBzw9YrIU-A2TWKjdx3kShZxoOz_uBw-kNJYolQ2dZuXg&oe=6A5BCD21", // Using logo as fallback for now
+      name: "Luna 2 Step Glow Intensive Mask",
+      price: "189 THB / pc | 795 THB / box (5 pcs)",
+      image: "https://scontent.fbkk12-6.fna.fbcdn.net/v/t51.82787-15/589589554_17900514666342655_4641035599660589610_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wSiKaKXUqvcQ7kNvwG-bD9e&_nc_oc=AdphHoHcg_TnSrDQQpB_9CfMiHWnbbJKmhF37XU3l3L9dF2BzjrRQxA-0PY6U_lKW-gHEALNMponcto6gqB9WdHJ&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=wMwJh2bETwfgzq-8E6GxLg&_nc_ss=7b2a8&oh=00_AQCshijZw6RXtYUyS3o9d7yHf67CQ7jL1rokg7MJippEdg&oe=6A5BFD46",
       shopeeLink: "https://s.shopee.co.th/8pkB8MctPm",
     }
   ];
