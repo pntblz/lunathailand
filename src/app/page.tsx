@@ -12,31 +12,31 @@ export default function Home() {
   const products = [
     {
       name: "Luna Lash Boom It",
-      price: "249 baht",
+      price: "249 THB",
       image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t51.75761-15/496191344_17873559402342655_5467593312695710141_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wsBc0gqv_3AQ7kNvwFtb6dy&_nc_oc=AdrGym1bwynTVptS3Jb-UMgBKjVW0bGjcD9PZIOf5JKDiohkzQy3aTtl_PM_bq8hU6bBYJLRcTsoMT2mzi0iYPlp&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=7QHtACZOOYWnoX-DFjRV6A&_nc_ss=7b2a8&oh=00_AQCTTm1aUNaw3DBGQE1M7sS7iBJkL5hH8kafTzaHCMJN7g&oe=6A5BCBE6",
       shopeeLink: "https://s.shopee.co.th/4AyLZhyBu5",
     },
     {
       name: "Luna Eye Cream",
-      price: "239 baht",
+      price: "239 THB",
       image: "https://scontent.fbkk12-4.fna.fbcdn.net/v/t51.82787-15/514438893_17881441662342655_1848738539827637045_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5akLJw6yEP4Q7kNvwGBsNr4&_nc_oc=Adp5tVllp3lUgOqIqiAKDcGu6Y5t06Vz5rw3WeD7w8ibpj01GBCoc3WNW-3RPKaexF0E2rO5HBNL5ivktuWb0pdS&_nc_zt=23&_nc_ht=scontent.fbkk12-4.fna&_nc_gid=cKkrVWhpcqZpKafhJwM5cw&_nc_ss=7b2a8&oh=00_AQCzoc7gnN95lIku9si-Giu0X_yCul8R2Si8eU63qsyYsQ&oe=6A5BFFA9",
       shopeeLink: "https://s.shopee.co.th/50XSZDPf5H",
     },
     {
       name: "Luna Lip Berry Frozen",
-      price: "249 baht",
+      price: "249 THB",
       image: "https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/480574394_122207549906210229_146951145116054180_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rHJUgwydMvkQ7kNvwFMV3f7&_nc_oc=AdoEGNhEJCRXbj-e5JyZz9NwJYgAaZGBPocAhh3c_W24pnS1V7uw5JfgllOE4NDNgztAdfH5O87qRBIIeRj8QuSg&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&_nc_gid=h6NcuqDx3NXntILmXRdbWQ&_nc_ss=7b2a8&oh=00_AQC6g37wrEPuUnLZMj2P_OnBCANOwvJxYPhPvQbJ0CK-wQ&oe=6A5BD761",
       shopeeLink: "https://s.shopee.co.th/8KnuXQfTWQ",
     },
     {
       name: "Luna Hydrobiome Moisturizer",
-      price: "Premium Care",
+      price: "490 THB",
       image: "https://scontent.fbkk13-2.fna.fbcdn.net/v/t51.82787-15/650894795_17912653416342655_2536528315488608974_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=P310GK9OQUcQ7kNvwFftsyK&_nc_oc=AdoVlNil47YlFHUFxOAI0qCm2RyvF9gjLmuB7BY6X8zYupXXkWtaFOzYjwB7PjYFj56JISGoPX-BKB3npbRkaxpa&_nc_zt=23&_nc_ht=scontent.fbkk13-2.fna&_nc_gid=Jw7WQD81vS8O9fxRmlV56g&_nc_ss=7b2a8&oh=00_AQCjfTEb5XEAaSY847lebnnAa8Sx5BAvRG8WqoeQ06FyZw&oe=6A5BD848",
       shopeeLink: "https://s.shopee.co.th/9zw8WRagaJ",
     },
     {
       name: "Luna Jelly Eye Mask",
-      price: "390 baht",
+      price: "390 THB",
       image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/480455900_122207312402210229_5618724458349782034_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=f5hnkf5tT5sQ7kNvwFQwhls&_nc_oc=Adp7-IsLdBvECZGnPrjmLKSi8fZIqSNPKvg5YlP_iRkcB37GVLUMo9gxkTZ9csUUoEZXy0NbQgErJmDjbe2ReyAW&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=gXtOr0aMtnYp3sZcd9ZDKQ&_nc_ss=7b2a8&oh=00_AQCBVpawl5ZA67Rl8QQDqMDbyD4nugN1ImgDKDr9bAvPRg&oe=6A5C0216",
       shopeeLink: "https://s.shopee.co.th/9zw8WLYqbo",
     },
