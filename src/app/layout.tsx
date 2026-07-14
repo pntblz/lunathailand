@@ -13,6 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lunathailand.com"),
   title: "LUNA OFFICIAL THAILAND",
   description: "MO LUNA OFFICIAL - Premium Cosmetics from Thailand",
 };
