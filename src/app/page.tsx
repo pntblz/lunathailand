@@ -354,7 +354,7 @@ export default function Home() {
               <img 
                 src="https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/600293670_122266768982210229_8423589881959478060_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GA4aUDvmDNkQ7kNvwEaHB0X&_nc_oc=AdoU9FwC_D4hsBvzHerKHxIARO0xMnzLGhWUKQ5IwGDEV9jd8hwnSEKFIIsOqqInQTdtVY-9lhHTkFp3E0INQg4_&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=3GKQtLsYx-AsLAQIMQdOiA&_nc_ss=7b2a8&oh=00_AQBzw9YrIU-A2TWKjdx3kShZxoOz_uBw-kNJYolQ2dZuXg&oe=6A5BCD21" 
                 alt="Luna Logo" 
-                className="h-12 w-12 object-contain rounded-full mb-6 shadow-sm grayscale opacity-80"
+                className="h-12 w-12 object-contain rounded-full mb-6 shadow-sm"
               />
               <p className="text-slate-500 max-w-xs leading-relaxed text-sm font-light">
                 Elevating your natural beauty with premium quality cosmetics. Discover the difference today.
