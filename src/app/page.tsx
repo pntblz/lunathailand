@@ -11,16 +11,16 @@ export default function Home() {
 
   const products = [
     {
-      name: "Luna Lash Boom It",
-      price: "249 THB",
-      image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t51.75761-15/496191344_17873559402342655_5467593312695710141_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wsBc0gqv_3AQ7kNvwFtb6dy&_nc_oc=AdrGym1bwynTVptS3Jb-UMgBKjVW0bGjcD9PZIOf5JKDiohkzQy3aTtl_PM_bq8hU6bBYJLRcTsoMT2mzi0iYPlp&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=7QHtACZOOYWnoX-DFjRV6A&_nc_ss=7b2a8&oh=00_AQCTTm1aUNaw3DBGQE1M7sS7iBJkL5hH8kafTzaHCMJN7g&oe=6A5BCBE6",
-      shopeeLink: "https://s.shopee.co.th/4AyLZhyBu5",
-    },
-    {
       name: "Luna Eye Cream",
       price: "239 THB",
       image: "https://scontent.fbkk12-4.fna.fbcdn.net/v/t51.82787-15/514438893_17881441662342655_1848738539827637045_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5akLJw6yEP4Q7kNvwGBsNr4&_nc_oc=Adp5tVllp3lUgOqIqiAKDcGu6Y5t06Vz5rw3WeD7w8ibpj01GBCoc3WNW-3RPKaexF0E2rO5HBNL5ivktuWb0pdS&_nc_zt=23&_nc_ht=scontent.fbkk12-4.fna&_nc_gid=cKkrVWhpcqZpKafhJwM5cw&_nc_ss=7b2a8&oh=00_AQCzoc7gnN95lIku9si-Giu0X_yCul8R2Si8eU63qsyYsQ&oe=6A5BFFA9",
       shopeeLink: "https://s.shopee.co.th/50XSZDPf5H",
+    },
+    {
+      name: "Luna Lash Boom It",
+      price: "249 THB",
+      image: "https://scontent.fbkk12-5.fna.fbcdn.net/v/t51.75761-15/496191344_17873559402342655_5467593312695710141_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wsBc0gqv_3AQ7kNvwFtb6dy&_nc_oc=AdrGym1bwynTVptS3Jb-UMgBKjVW0bGjcD9PZIOf5JKDiohkzQy3aTtl_PM_bq8hU6bBYJLRcTsoMT2mzi0iYPlp&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=7QHtACZOOYWnoX-DFjRV6A&_nc_ss=7b2a8&oh=00_AQCTTm1aUNaw3DBGQE1M7sS7iBJkL5hH8kafTzaHCMJN7g&oe=6A5BCBE6",
+      shopeeLink: "https://s.shopee.co.th/4AyLZhyBu5",
     },
     {
       name: "Luna Lip Berry Frozen",
