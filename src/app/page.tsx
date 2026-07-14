@@ -177,10 +177,10 @@ export default function Home() {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="font-serif text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 drop-shadow-2xl tracking-tight leading-[1.1] max-w-4xl"
+              className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 drop-shadow-2xl tracking-tight leading-[1.1] max-w-4xl"
             >
               Elevate Your <br className="hidden sm:block" /> 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-rose to-white">Natural Beauty</span>
+              <span className="text-white">Natural Beauty</span>
             </motion.h1>
             
             <motion.p 
@@ -208,30 +208,7 @@ export default function Home() {
           </div>
         </motion.section>
 
-        {/* Value Proposition / USP Icons */}
-        <motion.section 
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.7 }}
-          className="py-12 md:py-20 relative z-20"
-        >
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 divide-x divide-brand-rose/20">
-              {[
-                { title: "Premium Quality", desc: "Finest Ingredients" },
-                { title: "Dermatologist Tested", desc: "Safe for sensitive skin" },
-                { title: "Cruelty Free", desc: "Never tested on animals" },
-                { title: "Fast Delivery", desc: "Nationwide shipping" }
-              ].map((usp, i) => (
-                <div key={i} className={`flex flex-col items-center text-center ${i === 0 || i === 2 ? 'pl-0' : 'pl-6 md:pl-0'}`}>
-                  <h4 className="font-serif font-bold text-brand-dark text-sm sm:text-base mb-1">{usp.title}</h4>
-                  <p className="text-slate-500 text-[10px] sm:text-xs font-light uppercase tracking-wider">{usp.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </motion.section>
+
 
         {/* Featured Products Section */}
         <section id="products" className="py-20 md:py-32 relative">
@@ -243,7 +220,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="flex flex-col items-center text-center mb-16 md:mb-24"
             >
-              <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark tracking-tight mb-4">Our Premium Care</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-brand-dark tracking-tight mb-4">Our Premium Care</h2>
               <p className="text-slate-500 max-w-2xl text-lg font-light">Curated essentials for your daily beauty ritual.</p>
             </motion.div>
 
@@ -277,7 +254,7 @@ export default function Home() {
                   </div>
                   
                   <div className="flex flex-col flex-grow px-1 sm:px-4 pb-2 sm:pb-4 text-center">
-                    <h3 className="font-serif text-[14px] sm:text-xl font-bold text-brand-dark mb-1 leading-tight line-clamp-2">{product.name}</h3>
+                    <h3 className="text-[14px] sm:text-xl font-bold text-brand-dark mb-1 leading-tight line-clamp-2">{product.name}</h3>
                     <p className="text-brand-rose font-semibold text-[12px] sm:text-lg mb-4 sm:mb-8">{product.price}</p>
                     
                     <div className="mt-auto">
@@ -337,7 +314,7 @@ export default function Home() {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mb-8 leading-tight"
+              className="text-4xl md:text-5xl font-bold text-brand-dark mb-8 leading-tight"
             >
               Crafted for Confidence. <br className="hidden md:block"/> Designed for You.
             </motion.h2>
